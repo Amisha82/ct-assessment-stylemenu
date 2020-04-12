@@ -36,7 +36,7 @@ h2 {margin-top: 0;}
         - Show each of the section headings of the menu in uppercase
 */
 
-#starters h2 {
+ #menu h2 {
     text-transform: uppercase;
 }
 
@@ -55,7 +55,7 @@ dt {
     Add a CSS ruleset to accomplish the following:
     - Make a comma appear after the name of each menu item
 */
-#menu dd::before {content: ",";
+#menu dt::after {content: ",";
 }
 
 
